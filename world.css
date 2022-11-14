@@ -1,1 +1,51 @@
 /* Add your own styles */
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #395870;
+    color: #fff;
+}
+
+
+h1 {
+    font-family: Taviraj, Georgia, serif;
+}
+
+table {
+  border-collapse: collapse;
+  /*border-spacing: 5px;*/
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 20px auto;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+thead {
+  background: #395870;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}

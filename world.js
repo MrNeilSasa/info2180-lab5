@@ -1,5 +1,5 @@
 window.addEventListener('load', function(){
-    let lookupButton = document.querySelector('#lookup');
+    let lookupButton = document.querySelector('#lookup-country');
     let country = this.document.getElementById('country');
     let fetchName = "world.php?country=" 
     
